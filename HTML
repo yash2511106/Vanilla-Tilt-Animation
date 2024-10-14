@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Glassmorphsim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Card One</h3>
+                <p>Discover endless possibilities with innovative web design.Elevate your projects with creativity,responsiveness, and smooth animation.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Card Two</h3>
+                <p>Embrace the art of interction.From hover effects to tilt motions,add dynamic touches to your interface with style and simplicity.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Card Three</h3>
+                <p>Transform ideas into experiences.Unlock potential with modern web technologies that connect design,function,and user delight.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanila tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400
+        });
+    </script>
+</body>
+</html>
